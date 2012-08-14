@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoKlout/MonoKlout.cs">
+    <Files>
+      <File FileName="../../Desktop/Dropbox/Programming/pierceboggan/API Explorer/APIExplorer/APIExplorer/KloutController.cs" Line="43" Column="60" />
+      <File FileName="MonoKlout/MonoKlout.cs" Line="61" Column="13" />
+      <File FileName="MonoKlout/Request.cs" Line="14" Column="9" />
+      <File FileName="MonoKlout/Response.cs" Line="36" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

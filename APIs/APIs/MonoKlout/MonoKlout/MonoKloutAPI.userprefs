@@ -1,0 +1,23 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoKlout.cs">
+    <Files>
+      <File FileName="MonoKlout.cs" Line="30" Column="13" />
+      <File FileName="JsonModels.cs" Line="34" Column="9" />
+      <File FileName="../../../Desktop/Dropbox/Programming/pierceboggan/API Explorer/APIExplorer/APIExplorer/KloutController.cs" Line="34" Column="85" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="APIExplorer" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
