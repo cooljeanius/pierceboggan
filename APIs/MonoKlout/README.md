@@ -13,51 +13,51 @@ MonoKlout is a library for Version 2 of the Klout API. It is built using the Mon
 
 #Getting Started
 To get started, just instantiate the KloutAPI class.
-`var klout = new KloutAPI("apikey", "twitterusername");`
+    var klout = new KloutAPI("apikey", "twitterusername");
 You can now access methods via the klout object:
-`KloutIdentityResponse identity = klout.GetKloutIdentity();
-KloutScoreResponse score = klout.GetKloutScore();
-KloutInfluenceResponse influence = klout.GetInfluence();
-List<KloutUserTopicsResponse> userTopics = klout.GetUserTopics();
+    KloutIdentityResponse identity = klout.GetKloutIdentity();
+    KloutScoreResponse score = klout.GetKloutScore();
+    KloutInfluenceResponse influence = klout.GetInfluence();
+    List<KloutUserTopicsResponse> userTopics = klout.GetUserTopics();
 
-// Klout Id
-string id = identity.id;
+    // Klout Id
+    string id = identity.id;
 
-// Klout Score
-string scoreNumber = score.score;
-string dailyChange = score.scoreDelta.dayChange;
-string weeklyChange = score.scoreDelta.weekChange;
-string monthlyChange = score.scoreDelta.monthChange;
+    // Klout Score
+    string scoreNumber = score.score;
+    string dailyChange = score.scoreDelta.dayChange;
+    string weeklyChange = score.scoreDelta.weekChange;
+    string monthlyChange = score.scoreDelta.monthChange;
 
-// Klout Influence
-var influenees = influence.myInfluencees;
-var influencers = influence.myInfluencers;
+    // Klout Influence
+    var influenees = influence.myInfluencees;
+    var influencers = influence.myInfluencers;
 
-foreach (KloutInfluenceEntityResponse influencee in influenees)
-{
+    foreach (KloutInfluenceEntityResponse influencee in influenees)
+    {
 	// Information about influencee
 	Console.WriteLine(influencee.entity.payload.kloutId);
 	Console.WriteLine(influencee.entity.payload.nick);
 	Console.WriteLine(influencee.entity.payload.score);
-}
+    }
 
-foreach (KloutInfluenceEntityResponse influencer in influencers)
-{
+    foreach (KloutInfluenceEntityResponse influencer in influencers)
+    {
 	// Information about influencee
 	Console.WriteLine(influencer.entity.payload.kloutId);
 	Console.WriteLine(influencer.entity.payload.nick);
 	Console.WriteLine(influencer.entity.payload.score);
-}
+    }
 
-// Klout User Topics
-foreach (KloutUserTopicsResponse topic in userTopics)
-{
+    // Klout User Topics
+    foreach (KloutUserTopicsResponse topic in userTopics)
+    {   
 	// Information about the topic
 	Console.WriteLine(topic.displayName);
 	Console.WriteLine(topic.name);
 	Console.WriteLine(topic.slug);
 	Console.WriteLine(topic.imageUrl);
-}`
+    }
 
 #Roadmap
 *Async
