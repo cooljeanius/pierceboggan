@@ -2,14 +2,14 @@
 MonoKlout is a library for Version 2 of the Klout API. It is built using the Mono framework and JSON.NET, and is especially aimed at use in mobile applications, specifically using MonoTouch or Mono for Android. 
 
 #Features
-*Support for all Version 2 calls
-	*Identity
-	*Score
-		*Daily, Weekly, and Monthly changes
-	*Influencers
-	*Influencees
-	*User Topics
-*Works with the Mono framework and specifically at MonoTouch and Mono for Android (see [Xamarin][http://xamarin.com/])
+* Support for all Version 2 calls
+	* Identity
+	* Score
+		* Daily, Weekly, and Monthly changes
+	* Influencers
+	* Influencees
+	* User Topics
+* Works with the Mono framework and specifically at MonoTouch and Mono for Android (see [Xamarin][http://xamarin.com/])
 
 #Getting Started
 To get started, just instantiate the KloutAPI class.
@@ -60,8 +60,8 @@ You can now access methods via the klout object:
     }
 
 #Roadmap
-*Async
-*Identity calls based off Google Plus identity
+* Async
+* Identity calls based off Google Plus identity
 
 #Author
 I (Pierce Boggan) wrote MonoKlout one weekend as a little side project. I'm currently a sophomore studying Software Engineering at Auburn University. You can visit my blog at pierceboggan.com.
