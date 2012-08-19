@@ -9,7 +9,7 @@ MonoKlout is a library for Version 2 of the Klout API. It is built using the Mon
 	* Influencers
 	* Influencees
 	* User Topics
-* Works with the Mono framework and specifically at MonoTouch and Mono for Android (see [Xamarin][http://xamarin.com/])
+* Works with the Mono framework and specifically at MonoTouch and Mono for Android (see [Xamarin](http://xamarin.com/))
 
 #Getting Started
 To get started, just instantiate the KloutAPI class.
