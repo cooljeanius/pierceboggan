@@ -13,9 +13,9 @@ MonoKlout is a library for Version 2 of the Klout API. It is built using the Mon
 
 #Getting Started
 To get started, just instantiate the KloutAPI class.
-'var klout = new KloutAPI("apikey", "twitterusername"); '
+`var klout = new KloutAPI("apikey", "twitterusername");`
 You can now access methods via the klout object:
-'KloutIdentityResponse identity = klout.GetKloutIdentity();
+`KloutIdentityResponse identity = klout.GetKloutIdentity();
 KloutScoreResponse score = klout.GetKloutScore();
 KloutInfluenceResponse influence = klout.GetInfluence();
 List<KloutUserTopicsResponse> userTopics = klout.GetUserTopics();
@@ -57,7 +57,7 @@ foreach (KloutUserTopicsResponse topic in userTopics)
 	Console.WriteLine(topic.name);
 	Console.WriteLine(topic.slug);
 	Console.WriteLine(topic.imageUrl);
-}'
+}`
 
 #Roadmap
 *Async
