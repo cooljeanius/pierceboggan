@@ -1,0 +1,11 @@
+*.DS_Store
+*.userprefs
+*.pidb
+*/Bin/*
+Bin
+*.dll
+APIs/MonoKlout/Json45r10/Bin/
+*/Tools/*
+Tools
+*.exe
+APIs/MonoKlout/Json45r10/Source/Tools/
